@@ -1,0 +1,7 @@
+name: Vote-WebSite
+author: Cixxor
+main: be.cixxor.vote.Vote
+version: 1.0
+commands:
+  wwwvote:
+    description: Commande principale du vote
