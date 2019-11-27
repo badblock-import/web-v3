@@ -3,5 +3,6 @@ author: Cixxor
 main: be.cixxor.vote.Vote
 version: 1.0
 commands:
+depends: [PlaceholderAPI]
   wwwvote:
     description: Commande principale du vote

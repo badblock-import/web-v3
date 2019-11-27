@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import org.bukkit.entity.Player;
 
 @SuppressWarnings("unused")
-public class SQLManager { 
+public class SQLManager {
 	
 	private String baseurl;
 	private String host;

@@ -1,0 +1,7 @@
+# Vote default configuration file 
+# Messaging and Place Holding plugin
+# @author{Cixxor}
+
+#Link where the datas are stored
+apilink: "https://domain.ext/votes/api.php?player=_playername_"
+  
