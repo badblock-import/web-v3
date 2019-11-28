@@ -48,6 +48,7 @@ public class Vote extends JavaPlugin{
 	}
 	
 	public void getDatasOfPlayer(Player p) throws IOException {
+		if (p == null) return;
 		String str = this.getConfig().getString("apilink").replace("_playername_", p.getName());
 		URL theLink = new URL(str);
 		URLConnection yc = theLink.openConnection();
